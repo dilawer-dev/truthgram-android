@@ -492,9 +492,9 @@ public class EmojiPacksAlert extends BottomSheet implements NotificationCenter.N
         premiumButtonView.setButton(LocaleController.getString("UnlockPremiumEmoji", R.string.UnlockPremiumEmoji), ev -> {
             showPremiumAlert();
         });
-        premiumButtonView.setIcon(R.raw.unlock_icon);
-        premiumButtonView.buttonLayout.setClickable(true);
-        buttonsView.addView(premiumButtonView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 48, Gravity.BOTTOM, 12, 10, 12, 10));
+//        premiumButtonView.setIcon(R.raw.unlock_icon);
+//        premiumButtonView.buttonLayout.setClickable(true);
+//        buttonsView.addView(premiumButtonView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 48, Gravity.BOTTOM, 12, 10, 12, 10));
     }
 
     @Override
@@ -878,7 +878,7 @@ public class EmojiPacksAlert extends BottomSheet implements NotificationCenter.N
         if (fragment != null) {
             new PremiumFeatureBottomSheet(fragment, PremiumPreviewFragment.PREMIUM_FEATURE_ANIMATED_EMOJI, false).show();
         } else if (getContext() instanceof LaunchActivity) {
-            ((LaunchActivity) getContext()).presentFragment(new PremiumPreviewFragment(null));
+          //  ((LaunchActivity) getContext()).presentFragment(new PremiumPreviewFragment(null));
         }
     }
 

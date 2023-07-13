@@ -305,22 +305,22 @@ public class ReactionsContainerLayout extends FrameLayout implements Notificatio
                     case VIEW_TYPE_REACTION:
                         view = new ReactionHolderView(context, true);
                         break;
-                    case VIEW_TYPE_PREMIUM_BUTTON:
-                        premiumLockContainer = new FrameLayout(context);
-                        premiumLockIconView = new PremiumLockIconView(context, PremiumLockIconView.TYPE_REACTIONS);
-                        premiumLockIconView.setColor(ColorUtils.blendARGB(Theme.getColor(Theme.key_actionBarDefaultSubmenuItemIcon), Theme.getColor(Theme.key_dialogBackground), 0.7f));
-                        premiumLockIconView.setColorFilter(new PorterDuffColorFilter(Theme.getColor(Theme.key_dialogBackground), PorterDuff.Mode.MULTIPLY));
-                        premiumLockIconView.setScaleX(0f);
-                        premiumLockIconView.setScaleY(0f);
-                        premiumLockIconView.setPadding(AndroidUtilities.dp(1), AndroidUtilities.dp(1), AndroidUtilities.dp(1), AndroidUtilities.dp(1));
-                        premiumLockContainer.addView(premiumLockIconView, LayoutHelper.createFrame(26, 26, Gravity.CENTER));
-                        premiumLockIconView.setOnClickListener(v -> {
-                            int[] position = new int[2];
-                            v.getLocationOnScreen(position);
-                            showUnlockPremium(position[0] + v.getMeasuredWidth() / 2f, position[1] + v.getMeasuredHeight() / 2f);
-                        });
-                        view = premiumLockContainer;
-                        break;
+//                    case VIEW_TYPE_PREMIUM_BUTTON:
+//                        premiumLockContainer = new FrameLayout(context);
+//                        premiumLockIconView = new PremiumLockIconView(context, PremiumLockIconView.TYPE_REACTIONS);
+//                        premiumLockIconView.setColor(ColorUtils.blendARGB(Theme.getColor(Theme.key_actionBarDefaultSubmenuItemIcon), Theme.getColor(Theme.key_dialogBackground), 0.7f));
+//                        premiumLockIconView.setColorFilter(new PorterDuffColorFilter(Theme.getColor(Theme.key_dialogBackground), PorterDuff.Mode.MULTIPLY));
+//                        premiumLockIconView.setScaleX(0f);
+//                        premiumLockIconView.setScaleY(0f);
+//                        premiumLockIconView.setPadding(AndroidUtilities.dp(1), AndroidUtilities.dp(1), AndroidUtilities.dp(1), AndroidUtilities.dp(1));
+                      //  premiumLockContainer.addView(premiumLockIconView, LayoutHelper.createFrame(26, 26, Gravity.CENTER));
+//                        premiumLockIconView.setOnClickListener(v -> {
+//                            int[] position = new int[2];
+//                            v.getLocationOnScreen(position);
+//                            showUnlockPremium(position[0] + v.getMeasuredWidth() / 2f, position[1] + v.getMeasuredHeight() / 2f);
+//                        });
+//                        view = premiumLockContainer;
+ //                       break;
                     case VIEW_TYPE_CUSTOM_EMOJI_BUTTON:
                         customReactionsContainer = new CustomReactionsContainer(context);
                         customEmojiReactionsIconView = new InternalImageView(context);

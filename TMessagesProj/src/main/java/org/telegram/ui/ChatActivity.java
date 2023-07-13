@@ -759,7 +759,7 @@ public class ChatActivity extends BaseFragment implements NotificationCenter.Not
     }
 
     private String inlineQueryForInput;
-    private boolean premiumInvoiceBot;
+   private boolean premiumInvoiceBot;
     private boolean showScrollToMessageError;
     private int startLoadFromMessageId;
     private int startLoadFromDate;
@@ -22093,7 +22093,7 @@ public class ChatActivity extends BaseFragment implements NotificationCenter.Not
             link.setSpan(new ClickableSpan() {
                 @Override
                 public void onClick(@NonNull View view) {
-                    presentFragment(new PremiumPreviewFragment(null));
+                  //  presentFragment(new PremiumPreviewFragment(null));
                 }
 
                 @Override
@@ -29173,7 +29173,7 @@ public class ChatActivity extends BaseFragment implements NotificationCenter.Not
 
         @Override
         public void needShowPremiumFeatures(String source) {
-            presentFragment(new PremiumPreviewFragment(source));
+          //  presentFragment(new PremiumPreviewFragment(source));
         }
 
         @Override

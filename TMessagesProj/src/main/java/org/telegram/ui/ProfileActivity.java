@@ -3341,7 +3341,7 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
             } else if (position == setAvatarRow) {
                 onWriteButtonClick();
             } else if (position == premiumRow) {
-                presentFragment(new PremiumPreviewFragment("settings"));
+               // presentFragment(new PremiumPreviewFragment("settings"));
             } else {
                 processOnClickOrPress(position, view, x, y);
             }
@@ -7079,10 +7079,10 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
                 devicesRow = rowCount++;
                 languageRow = rowCount++;
                 devicesSectionRow = rowCount++;
-                if (!getMessagesController().premiumLocked) {
-                    premiumRow = rowCount++;
-                    premiumSectionsRow = rowCount++;
-                }
+//                if (!getMessagesController().premiumLocked) {
+//                    premiumRow = rowCount++;
+//                    premiumSectionsRow = rowCount++;
+//                }
                 helpHeaderRow = rowCount++;
                 questionRow = rowCount++;
                 faqRow = rowCount++;
@@ -9260,8 +9260,8 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
                         textCell.setTextAndIcon(LocaleController.getString("AddToGroupOrChannel", R.string.AddToGroupOrChannel), R.drawable.msg_groups_create, false);
                         textCell.setColors(Theme.key_windowBackgroundWhiteBlueIcon, Theme.key_windowBackgroundWhiteBlueButton);
                     } else if (position == premiumRow) {
-                        textCell.setTextAndIcon(LocaleController.getString("TelegramPremium", R.string.TelegramPremium), new AnimatedEmojiDrawable.WrapSizeDrawable(PremiumGradient.getInstance().premiumStarMenuDrawable, AndroidUtilities.dp(24), AndroidUtilities.dp(24)), false);
-                        textCell.setImageLeft(23);
+//                        textCell.setTextAndIcon(LocaleController.getString("TelegramPremium", R.string.TelegramPremium), new AnimatedEmojiDrawable.WrapSizeDrawable(PremiumGradient.getInstance().premiumStarMenuDrawable, AndroidUtilities.dp(24), AndroidUtilities.dp(24)), false);
+//                        textCell.setImageLeft(23);
                     }
                     break;
                 case VIEW_TYPE_NOTIFICATIONS_CHECK:

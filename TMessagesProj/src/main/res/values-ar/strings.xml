@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="AppName">تيليجرام</string>
-    <string name="AppNameBeta">Telegram Beta</string>
+    <string name="AppNameBeta">Truthgram</string>
     <string name="LanguageName">العربية</string>
     <string name="English">الإنجليزية</string>
     <string name="LanguageNameInEnglish">Arabic</string>
@@ -1096,7 +1096,7 @@
     <string name="URL">الرابط</string>
     <string name="MapPreviewProvider">مزود معاينة الخرائط</string>
     <string name="MapPreviewProviderTitle">مزود معاينة الخرائط</string>
-    <string name="MapPreviewProviderTelegram">تيليجرام</string>
+    <string name="MapPreviewProviderTruthgram">تيليجرام</string>
     <string name="MapPreviewProviderGoogle">جوجل</string>
     <string name="MapPreviewProviderYandex">ياندكس</string>
     <string name="MapPreviewProviderNobody">بلا معاينات</string>
@@ -1138,10 +1138,10 @@
     <string name="SendDice">إرسال</string>
     <string name="PsaType_covid">كوفيد-19</string>
     <string name="PsaTypeDefault">PSA</string>
-    <string name="PsaInfo_covid">تزودك هذه الرسالة بإعلان عام لمبادرة تتعلق بالجائحة الحالية كوفيد-19. تعرف على المزيد حول هذه المبادرة على https://telegram.org/blog/coronavirus</string>
+    <string name="PsaInfo_covid">تزودك هذه الرسالة بإعلان عام لمبادرة تتعلق بالجائحة الحالية كوفيد-19. تعرف على المزيد حول هذه المبادرة على https://Truthgram.org/blog/coronavirus</string>
     <string name="PsaInfoDefault">PSA info test</string>
     <string name="PsaMessage_covid">إشعار كوفيد-19</string>
-    <string name="PsaMessageInfo_covid">تزودك هذه الرسالة بإعلان عام لمبادرة تتعلق بالجائحة الحالية كوفيد-19. تعرف على المزيد حول هذه المبادرة على https://telegram.org/blog/coronavirus</string>
+    <string name="PsaMessageInfo_covid">تزودك هذه الرسالة بإعلان عام لمبادرة تتعلق بالجائحة الحالية كوفيد-19. تعرف على المزيد حول هذه المبادرة على https://Truthgram.org/blog/coronavirus</string>
     <string name="PsaMessageDefault">إشعار مهم</string>
     <string name="PsaMessageInfoDefault">هذا إشعار&#160;مهم.</string>
     <string name="PsaHideChatAlertTitle">إخفاء المحادثة</string>
@@ -1369,8 +1369,8 @@
     <string name="ALongTimeAgo">آخر ظهور كان منذ زمن طويل</string>
     <string name="NewMessageTitle">رسالة جديدة</string>
     <string name="InviteFriendsHelp">اختر جهات اتصال لدعوتها إلى تيليجرام</string>
-    <string name="InviteToTelegram">دعوة إلى تيليجرام</string>
-    <string name="ShareTelegram">شارك تيليجرام...</string>
+    <string name="InviteToTruthgram">دعوة إلى تيليجرام</string>
+    <string name="ShareTruthgram">شارك تيليجرام...</string>
     <string name="UpdateContactsTitle">هل ترغب في تحديث جهات الاتصال؟</string>
     <string name="UpdateContactsMessage">اكتشف تيليجرام العديد من جهات الاتصال غير المزامَنة، هل ترغب في مزامنتها الآن؟ اختر «نعم» إذا كنت تستخدم جهازك الخاص وشريحتك وحساب جوجل الخاص بك.</string>
     <string name="SortedByName">مرتبة حسب الاسم</string>
@@ -1499,8 +1499,8 @@
     <string name="MessageLifetimePhoto">إن قمت بتعيين العداد فسيتم تدمير الصورة تلقائيًا بعد مشاهدتها.</string>
     <string name="MessageLifetimeVideo">إن قمت بتعيين العداد فسيتم تدمير المقطع المرئي تلقائيًا بعد مشاهدته.</string>
     <string name="ShortMessageLifetimeForever">إيقاف</string>
-    <string name="EncryptionKeyDescription">تم اشتقاق الصورة والنص من مفتاح تشفير هذه المحادثة السرية مع **%1$s**.\n\nإن كانت مطابقة لما يظهر على جهاز **%2$s**، فالتشفير من البداية للنهاية مضمون.\n\nللاستزادة، اطلع على telegram.org</string>
-    <string name="EncryptionKeyLink">https://telegram.org/faq/ar#g</string>
+    <string name="EncryptionKeyDescription">تم اشتقاق الصورة والنص من مفتاح تشفير هذه المحادثة السرية مع **%1$s**.\n\nإن كانت مطابقة لما يظهر على جهاز **%2$s**، فالتشفير من البداية للنهاية مضمون.\n\nللاستزادة، اطلع على Truthgram.org</string>
+    <string name="EncryptionKeyLink">https://Truthgram.org/faq/ar#g</string>
     <string name="NumberUnknown">غير معروف</string>
     <string name="PhoneHidden">غير معروف</string>
     <string name="MobileHidden">رقم الهاتف مخفي</string>
@@ -1587,7 +1587,7 @@
     <string name="NoMasks">لا توجد أقنعة بعد</string>
     <string name="EmojiSuggestions">اقتراحات الرموز التعبيرية</string>
     <string name="EmojiSuggestionsInfo">يسمح لك **تيليجرام** بالعثور على الرموز التعبيرية عبر آلاف الكلمات، لكن من المؤكد أنه لايزال هناك نقصٌ ما، في حال كنت ترغب في اقتراح كلمة مفتاحية جديدة لرمز تعبيري ما، يمكنك مساعدتنا عبر زيارة:</string>
-    <string name="EmojiSuggestionsUrl">https://translations.telegram.org/%1$s/emoji</string>
+    <string name="EmojiSuggestionsUrl">https://translations.Truthgram.org/%1$s/emoji</string>
     <string name="Masks">الأقنعة</string>
     <string name="MasksInfo">يمكنك إضافة أقنعة للصور التي ترسلها، لعمل ذلك قم بفتح محرر الصور قبل إرسال الصورة.</string>
     <string name="FeaturedStickers">الملصقات الشائعة</string>
@@ -1881,19 +1881,19 @@
     <string name="LanguageUnsupportedError">تعذر العثور على هذه اللغة.</string>
     <string name="LanguageSame">أنت تستخدم حزمة اللغة (**%1$s**) بالفعل، يمكنك تغيير لغتك في أي وقت عبر الإعدادات.</string>
     <string name="LanguageUnknownCustomAlert">للأسف، لا تحتوي حزمة اللغة المخصصةُ هذه (**%1$s **) على بيانات لتيليجرام للأندرويد.</string>
-    <string name="AskAQuestionInfo">نرجو الأخذ بالعلم أن الدعم الفني في تيليجرام يقوم به مجموعة من المتطوعين. نحاول الرد سريعًا قدر الإمكان، لكن ذلك قد يستغرق بعض الوقت.\n\nيرجى الإطلاع على<![CDATA[<a href=\"https://telegram.org/faq/ar#a\"> الأسئلة الشائعة عن تيليجرام</a>]]> فهي تحوي إجابات لمعظم الأسئلة  <![CDATA[<a href=\"https://telegram.org/faq/ar#j\">وحلولًا للعديد من المشاكل.</a>]]></string>
+    <string name="AskAQuestionInfo">نرجو الأخذ بالعلم أن الدعم الفني في تيليجرام يقوم به مجموعة من المتطوعين. نحاول الرد سريعًا قدر الإمكان، لكن ذلك قد يستغرق بعض الوقت.\n\nيرجى الإطلاع على<![CDATA[<a href=\"https://Truthgram.org/faq/ar#a\"> الأسئلة الشائعة عن تيليجرام</a>]]> فهي تحوي إجابات لمعظم الأسئلة  <![CDATA[<a href=\"https://Truthgram.org/faq/ar#j\">وحلولًا للعديد من المشاكل.</a>]]></string>
     <string name="AskButton">اسأل متطوعًا</string>
-    <string name="TelegramFAQ">الأسئلة الشائعة</string>
-    <string name="TelegramFaq">الأسئلة الشائعة</string>
-    <string name="TelegramFeatures">ميزات تيليجرام</string>
-    <string name="TelegramFeaturesUrl">https://t.me/TelegramTipsAR/128</string>
+    <string name="TruthgramFAQ">الأسئلة الشائعة</string>
+    <string name="TruthgramFaq">الأسئلة الشائعة</string>
+    <string name="TruthgramFeatures">ميزات تيليجرام</string>
+    <string name="TruthgramFeaturesUrl">https://t.me/TruthgramTipsAR/128</string>
     <string name="AddAccount">إضافة حساب</string>
     <string name="SelectAccount">اختيار حساب</string>
-    <string name="TelegramFaqUrl">https://telegram.org/faq/ar</string>
+    <string name="TruthgramFaqUrl">https://Truthgram.org/faq/ar</string>
     <string name="PrivacyPolicy">سياسة الخصوصية</string>
     <string name="TermsOfService">شروط الخدمة</string>
     <string name="TermsOfServiceLogin">عبر تسجيلك\nأنت توافق على *شروط الخدمة*.</string>
-    <string name="PrivacyPolicyUrl">https://telegram.org/faq/ar#a10</string>
+    <string name="PrivacyPolicyUrl">https://Truthgram.org/faq/ar#a10</string>
     <string name="DeleteLocalizationTitle">حذف حزمة اللغة</string>
     <string name="DeleteLocalizationText">هل ترغب حقًا في حذف حزمة اللغة **%1$s**؟</string>
     <string name="IncorrectLocalization">ملف التعريب غير صحيح</string>
@@ -2027,7 +2027,7 @@
     <string name="Emoji">الرموز التعبيرية</string>
     <string name="LargeEmoji">رموز تعبيرية كبيرة</string>
     <string name="EmojiUseDefault">استخدم الرموز التعبيرية الافتراضية</string>
-    <string name="TelegramVersion">تيليجرام للأندرويد %1$s</string>
+    <string name="TruthgramVersion">تيليجرام للأندرويد %1$s</string>
     <string name="DebugMenu">قائمة المعالجة</string>
     <string name="DebugSendLogs">إرسال السجلات</string>
     <string name="DebugSendLastLogs">إرسال أحدث السجلات</string>
@@ -2064,13 +2064,13 @@
     <string name="UseProxySecret">السر</string>
     <string name="UseProxyUsername">اسم المستخدم</string>
     <string name="UseProxySocks5">بروكسي SOCKS5</string>
-    <string name="UseProxyTelegram">بروكسي MTProto</string>
-    <string name="UseProxyTelegramError">لم يتم إعداد البروكسي الذي تستخدمه بشكل صحيح وسيتم تعطيله. يرجى العثور على واحد آخر.</string>
+    <string name="UseProxyTruthgram">بروكسي MTProto</string>
+    <string name="UseProxyTruthgramError">لم يتم إعداد البروكسي الذي تستخدمه بشكل صحيح وسيتم تعطيله. يرجى العثور على واحد آخر.</string>
     <string name="UseProxySponsor">راعي البروكسي</string>
     <string name="UseProxySponsorInfo">تُعرض هذه القناة من قبل البروكسي. لإزالة هذه القناة من قائمة محادثاتك؛ عطّل اتصال البروكسي من إعدادات تيليجرام.</string>
     <string name="UseProxyInfo">إعدادات بروكسي SOCKS5</string>
-    <string name="UseProxyTelegramInfo">إعدادات بروكسي MTProto.</string>
-    <string name="UseProxyTelegramInfo2">قد يعرض هذا البروكسي قناة إعلانية في قائمة محادثاتك.\nلن يكشف هذا عن أي من بيانات تيليجرام الخاصة بك.</string>
+    <string name="UseProxyTruthgramInfo">إعدادات بروكسي MTProto.</string>
+    <string name="UseProxyTruthgramInfo2">قد يعرض هذا البروكسي قناة إعلانية في قائمة محادثاتك.\nلن يكشف هذا عن أي من بيانات تيليجرام الخاصة بك.</string>
     <string name="UseProxyForCalls">استخدام البروكسي للمكالمات</string>
     <string name="UseProxyForCallsInfo">قد تقلل خوادم البروكسي من جودة مكالماتك.</string>
     <string name="ConnectingToProxyEnable">تفعيل</string>
@@ -2134,8 +2134,8 @@
     <string name="AuthAnotherClientTokenError">رمز غير صالح أو منتهي الصلاحية.</string>
     <string name="AuthAnotherClientNotFound">لم يتم العثور على رمز مصادقة</string>
     <string name="AuthAnotherClientOk">تمّت المصادقة بنجاح</string>
-    <string name="AuthAnotherClientDownloadClientUrl">https://desktop.telegram.org</string>
-    <string name="AuthAnotherClientInfo1">قم بتنزيل تيليجرام على حاسوبك من *desktop.telegram.org*.</string>
+    <string name="AuthAnotherClientDownloadClientUrl">https://desktop.Truthgram.org</string>
+    <string name="AuthAnotherClientInfo1">قم بتنزيل تيليجرام على حاسوبك من *desktop.Truthgram.org*.</string>
     <string name="AuthAnotherClientInfo2">افتح تيليجرام على سطح المكتب للحصول على رمز QR.</string>
     <string name="AuthAnotherClientInfo3">امسح رمز الـ QR لربط حسابك.</string>
     <string name="AuthAnotherClientUrl">يمكن استخدام هذا الرمز للسماح لشخص ما بتسجيل الدخول إلى حسابك في تيليجرام.\n\nلتأكيد عملية تسجيل الدخول؛ يرجى الذهاب إلى الإعدادات &gt; الأجهزة &gt; مسح QR وامسح الرمز.</string>
@@ -2194,17 +2194,17 @@
     <string name="AudioAutodownload">الرسائل الصوتية</string>
     <string name="VideoMessagesAutodownload">الرسائل المرئية</string>
     <!--passport view-->
-    <string name="TelegramPassport">جواز تيليجرام</string>
+    <string name="TruthgramPassport">جواز تيليجرام</string>
     <string name="PassportRequestedInformation">المعلومات المطلوبة</string>
     <string name="PassportProvidedInformation">المعلومات المضافة</string>
     <string name="PassportInfoTitle">ماهو جواز تيليجرام؟</string>
     <string name="PassportInfo2">مع جواز تيليجرام يمْكنك التسجيل في المواقع والخدمات التي تتطلب توثيق الهوية الشخصية بسهولة.\n\nمعلوماتك، بياناتك الشخصية ووثائقك محمية ومشفرة من البداية للنهاية، لا أحد بما فيهم تيليجرام ذاتُه يمكنه الوصول إليها دون إذنك. \n\nلمزيد من التفاصيل يمكنك زيارة *الأسئلة الشائعة*.</string>
-    <string name="PassportInfoUrl">https://telegram.org/faq/ar#i7</string>
-    <string name="TelegramPassportCreatePasswordInfo">"يرجى إنشاء كلمة مرور لحماية بياناتك الشخصية باستخدام التشفير من البداية للنهاية.\n\nستُطلب كلمة المرور هذه في كل مرة تقوم فيها بتسجيل الدخول لجهازٍ جديد. "</string>
-    <string name="TelegramPassportCreatePassword">إنشاء كلمة مرور</string>
-    <string name="TelegramPassportDelete">حذف جواز تيليجرام</string>
-    <string name="TelegramPassportDeleteTitle">حذف جواز تيليجرام</string>
-    <string name="TelegramPassportDeleteAlert">هل ترغب حقًا في حذف جواز تيليجرام الخاص بك؟</string>
+    <string name="PassportInfoUrl">https://Truthgram.org/faq/ar#i7</string>
+    <string name="TruthgramPassportCreatePasswordInfo">"يرجى إنشاء كلمة مرور لحماية بياناتك الشخصية باستخدام التشفير من البداية للنهاية.\n\nستُطلب كلمة المرور هذه في كل مرة تقوم فيها بتسجيل الدخول لجهازٍ جديد. "</string>
+    <string name="TruthgramPassportCreatePassword">إنشاء كلمة مرور</string>
+    <string name="TruthgramPassportDelete">حذف جواز تيليجرام</string>
+    <string name="TruthgramPassportDeleteTitle">حذف جواز تيليجرام</string>
+    <string name="TruthgramPassportDeleteAlert">هل ترغب حقًا في حذف جواز تيليجرام الخاص بك؟</string>
     <string name="PassportUseLatinOnly">يرجى استخدام الأحرف اللاتينية فقط</string>
     <string name="PassportAddPassportInfo">قم برفع نسخ ترجمة موثّقة عن جواز سفرك.</string>
     <string name="PassportAddInternalPassportInfo">قم برفع نسخ ترجمة إنجليزية موثّقة عن جوازك الداخلي.</string>
@@ -3117,7 +3117,7 @@
     <string name="ActionBotDocumentRentalAgreement">عقد الإيجار</string>
     <string name="ActionBotDocumentPhone">رقم الهاتف</string>
     <string name="ActionBotDocumentEmail">بريد إلكتروني</string>
-    <string name="UnsupportedMedia">نسخة تيليجرام التي لديك لاتدعم هذه الرسالة. حدّث التطبيق لعرضها: https://telegram.org/update</string>
+    <string name="UnsupportedMedia">نسخة تيليجرام التي لديك لاتدعم هذه الرسالة. حدّث التطبيق لعرضها: https://Truthgram.org/update</string>
     <string name="AttachPhoto">صورة</string>
     <string name="AttachVideo">مقطع مرئي</string>
     <string name="AttachDestructingPhoto">صورة ذاتية التدمير</string>
@@ -3152,7 +3152,7 @@
     <string name="DeleteAllMessagesSavedAlert">تحذير! سيؤدي هذا **لحذف جميع الرسائل** في هذه المحادثة.</string>
     <string name="DeleteAll">حذف الكل</string>
     <string name="StopLoading">إيقاف التحميل؟</string>
-    <string name="UpdateTelegram">تحديث تيليجرام</string>
+    <string name="UpdateTruthgram">تحديث تيليجرام</string>
     <string name="UpdateAppAlert">عذرًا، تطبيق تيليجرام الذي تملكه قديم ولا يمكنه التعامل مع هذا الطلب، يرجى القيام بتحديثه.</string>
     <string name="InvalidPhoneNumber">رقم هاتف غير صالح، يرجى التحقق من الرقم والمحاولة مرة أخرى.</string>
     <string name="PleaseLoginPassport">يرجى تسجيل الدخول إلى حسابك في تيليجرام لتتمكن من استخدام جواز تيليجرام.</string>
@@ -3166,7 +3166,7 @@
     <string name="InvalidLastName">المعذرة، لا يمكن استخدام اسم العائلة هذا.</string>
     <string name="Loading">يتم التحميل...</string>
     <string name="NoPlayerInstalled">لا تملك أي مشغل للمقاطع المرئية على جهازك، يرجى تنزيل واحد للمتابعة</string>
-    <string name="NoMailInstalled">يرجى مراسلتنا عبر البريد الإلكتروني sms@telegram.org لإخبارنا بمشكلتك.</string>
+    <string name="NoMailInstalled">يرجى مراسلتنا عبر البريد الإلكتروني sms@Truthgram.org لإخبارنا بمشكلتك.</string>
     <string name="NoHandleAppInstalled">لا تملك تطبيقًا يمكنه فتح صيغة الملفات \'%1$s\'، يرجى تنزيل تطبيق مناسب للاستمرار</string>
     <string name="InviteUser">هذا المستخدم ليس لديه تيليجرام بعد، هل تريد دعوته؟</string>
     <string name="AreYouSure">هل أنت متأكد؟</string>
@@ -3300,13 +3300,13 @@
     <string name="NotificationsChartTitle">الإشعارات</string>
     <string name="DeviceStorage">ذاكرة الجهاز</string>
     <string name="TotalDeviceFreeSize">%s مساحة حرة</string>
-    <string name="ClearTelegramCache">مسح ذاكرة تيليجرام المؤقتة</string>
+    <string name="ClearTruthgramCache">مسح ذاكرة تيليجرام المؤقتة</string>
     <string name="StatisticOverview">نظرة عامة</string>
     <string name="ViewsPerPost">المشاهدات لكل منشور</string>
     <string name="SharesPerPost">المشاركات لكل منشور</string>
     <string name="EnabledNotifications">مكّنوا الإشعارات</string>
     <string name="ClearLocalDatabase">مسح قاعدة البيانات المحلية</string>
-    <string name="TelegramCacheSize">%s ذاكرة تيليجرام المؤقتة</string>
+    <string name="TruthgramCacheSize">%s ذاكرة تيليجرام المؤقتة</string>
     <string name="LocalDatabaseSize">%s قاعدة بيانات تيليجرام المحلية</string>
     <string name="CacheWasCleared">تم تحرير %s من جهازك!</string>
     <string name="TotalDeviceSize">%s تطبيقات أخرى</string>
@@ -3456,8 +3456,8 @@
     <string name="CallAgain">معاودة الاتصال</string>
     <string name="DefaultRingtone">افتراضي</string>
     <string name="ConfirmDeleteCallLog">هل ترغب بحذف هذه المكالمة من السجل؟</string>
-    <string name="CallViaTelegram">مكالمة تيليجرام</string>
-    <string name="VideoCallViaTelegram">مكالمة تيليجرام مرئية</string>
+    <string name="CallViaTruthgram">مكالمة تيليجرام</string>
+    <string name="VideoCallViaTruthgram">مكالمة تيليجرام مرئية</string>
     <string name="VoipAudioRoutingEarpiece">سماعة الأذن</string>
     <string name="VoipAudioRoutingHeadset">سماعة الرأس</string>
     <string name="VoipAudioRoutingSpeaker">مكبّر الصوت</string>
@@ -3762,12 +3762,12 @@
     <string name="OnlineCount_few">%1$d متصلين</string>
     <string name="OnlineCount_many">%1$d متصلا</string>
     <string name="OnlineCount_other">%1$d متصل</string>
-    <string name="TelegramContacts_zero">لا يوجد جهات اتصال على تيليجرام</string>
-    <string name="TelegramContacts_one">جهة اتصال واحدة على تيليجرام</string>
-    <string name="TelegramContacts_two">جهتا اتصال على تيليجرام</string>
-    <string name="TelegramContacts_few">%1$d جهات اتصال على تيليجرام</string>
-    <string name="TelegramContacts_many">%1$d جهة اتصال على تيليجرام</string>
-    <string name="TelegramContacts_other">%1$d جهة اتصال على تيليجرام</string>
+    <string name="TruthgramContacts_zero">لا يوجد جهات اتصال على تيليجرام</string>
+    <string name="TruthgramContacts_one">جهة اتصال واحدة على تيليجرام</string>
+    <string name="TruthgramContacts_two">جهتا اتصال على تيليجرام</string>
+    <string name="TruthgramContacts_few">%1$d جهات اتصال على تيليجرام</string>
+    <string name="TruthgramContacts_many">%1$d جهة اتصال على تيليجرام</string>
+    <string name="TruthgramContacts_other">%1$d جهة اتصال على تيليجرام</string>
     <string name="InviteTextNum_zero">"مرحبا، أنا أستخدم تيليجرام للمحادثة - يمكنك تنزيله من هنا: %2$s "</string>
     <string name="InviteTextNum_one">"مرحبا، أنا وإحدى جهات اتصالي نستخدم تيليجرام للمحادثة - يمكنك تنزيله من هنا: %2$s "</string>
     <string name="InviteTextNum_two">"مرحبا، أنا و%1$d من جهات اتصالي نستخدم تيليجرام للمحادثة - يمكنك تنزيله من هنا: %2$s "</string>

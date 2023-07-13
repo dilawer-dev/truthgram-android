@@ -8,4 +8,9 @@
     <color name="widget_divider">#d9d9d9</color>
     <color name="widget_action_text">#8B8D8F</color>
     <color name="widget_edit_text">#999999</color>
+    <color name="primary_color">#191970</color>
+    <color name="previous_primary_color">#527da3</color>
+    <color name="previous_colorPrimaryDark">#426482</color>
+
+
 </resources>

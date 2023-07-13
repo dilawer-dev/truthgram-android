@@ -88,7 +88,7 @@ public class DoubledLimitsBottomSheet extends BottomSheetWithRecyclerListView im
         premiumButtonView = new PremiumButtonView(getContext(), true);
         premiumButtonView.buttonTextView.setText(PremiumPreviewFragment.getPremiumButtonText(currentAccount, selectedTier));
 
-        containerView.addView(premiumButtonView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 48, Gravity.BOTTOM, 16, 0, 16, 12));
+        //containerView.addView(premiumButtonView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 48, Gravity.BOTTOM, 16, 0, 16, 12));
 
         premiumButtonView.buttonLayout.setOnClickListener((view) -> {
             if (!UserConfig.getInstance(currentAccount).isPremium()) {

@@ -3408,7 +3408,7 @@ public class PaymentFormActivity extends BaseFragment implements NotificationCen
                     }
                 }
 
-                parentLayout.presentFragment(new PremiumPreviewFragment(null).setForcePremium(), !isFinishing());
+               // parentLayout.presentFragment(new PremiumPreviewFragment(null).setForcePremium(), !isFinishing());
                 if (parentActivity instanceof LaunchActivity) {
                     try {
                         fragmentView.performHapticFeedback(HapticFeedbackConstants.KEYBOARD_TAP, HapticFeedbackConstants.FLAG_IGNORE_GLOBAL_SETTING);

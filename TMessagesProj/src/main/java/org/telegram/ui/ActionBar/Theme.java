@@ -5035,6 +5035,7 @@ public class Theme {
         defaultDrawable.setIntrinsicWidth(size);
         defaultDrawable.setIntrinsicHeight(size);
         defaultDrawable.getPaint().setColor(color);
+
         return defaultDrawable;
     }
 
@@ -9176,6 +9177,9 @@ public class Theme {
     }
 
     public static int getColor(int key, boolean[] isDefault, boolean ignoreAnimation) {
+        String TAG = "color";
+        Log.d(TAG, "thisgetColor: " + key);
+
         if (!ignoreAnimation && animatingColors != null) {
             int index = animatingColors.indexOfKey(key);
             if (index >= 0) {
@@ -9184,6 +9188,7 @@ public class Theme {
         }
         if (serviceBitmapShader != null && (key_chat_serviceText == key || key_chat_serviceLink == key || key_chat_serviceIcon == key
                 || key_chat_stickerReplyLine == key || key_chat_stickerReplyNameText == key || key_chat_stickerReplyMessageText == key)) {
+
             return 0xffffffff;
         }
         if (currentTheme == defaultTheme) {
@@ -9231,6 +9236,8 @@ public class Theme {
         }
         if (key_windowBackgroundWhite == key || key_windowBackgroundGray == key || key_actionBarDefault == key || key_actionBarDefaultArchived == key) {
             color |= 0xff000000;
+            Log.d(TAG, "thisgetColor: hiiiiii");
+          //  color= 0xFF191970;
         }
         return color;
     }

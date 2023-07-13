@@ -314,9 +314,9 @@ public class GiftPremiumBottomSheet extends BottomSheetWithRecyclerListView {
         premiumButtonView = new PremiumButtonView(getContext(), true);
 
         FrameLayout buttonContainer = new FrameLayout(getContext());
-        buttonContainer.addView(premiumButtonView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 48, Gravity.CENTER_VERTICAL, 16, 0, 16, 0));
-        buttonContainer.setBackgroundColor(getThemedColor(Theme.key_dialogBackground));
-        containerView.addView(buttonContainer, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 68, Gravity.BOTTOM));
+//        buttonContainer.addView(premiumButtonView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 48, Gravity.CENTER_VERTICAL, 16, 0, 16, 0));
+//        buttonContainer.setBackgroundColor(getThemedColor(Theme.key_dialogBackground));
+//        containerView.addView(buttonContainer, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 68, Gravity.BOTTOM));
     }
 
     @Override
@@ -461,7 +461,7 @@ public class GiftPremiumBottomSheet extends BottomSheetWithRecyclerListView {
 
         @Override
         public void onClick(View widget) {
-            getBaseFragment().presentFragment(new PremiumPreviewFragment("profile"));
+          //  getBaseFragment().presentFragment(new PremiumPreviewFragment("profile"));
             dismiss();
         }
 

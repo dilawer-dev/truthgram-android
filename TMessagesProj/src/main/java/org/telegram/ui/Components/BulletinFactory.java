@@ -641,7 +641,7 @@ public final class BulletinFactory {
             spannable.setSpan(new ClickableSpan() {
                 @Override
                 public void onClick(@NonNull View widget) {
-                    fragment.presentFragment(new PremiumPreviewFragment("settings"));
+                   // fragment.presentFragment(new PremiumPreviewFragment("settings"));
                 }
 
                 @Override

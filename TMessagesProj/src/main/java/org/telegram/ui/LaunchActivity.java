@@ -2227,7 +2227,7 @@ public class LaunchActivity extends BasePermissionsActivity implements INavigati
                                         if (!actionBarLayout.getFragmentStack().isEmpty()) {
                                             BaseFragment fragment = actionBarLayout.getFragmentStack().get(0);
                                             Uri uri = Uri.parse(finalUrl);
-                                            fragment.presentFragment(new PremiumPreviewFragment(uri.getQueryParameter("ref")));
+                                           // fragment.presentFragment(new PremiumPreviewFragment(uri.getQueryParameter("ref")));
                                         }});
                                     } else if (url.startsWith("tg:resolve") || url.startsWith("tg://resolve")) {
                                         url = url.replace("tg:resolve", "tg://telegram.org").replace("tg://resolve", "tg://telegram.org");
@@ -5851,7 +5851,7 @@ public class LaunchActivity extends BasePermissionsActivity implements INavigati
                         span.setSpan(new ClickableSpan() {
                             @Override
                             public void onClick(@NonNull View widget) {
-                                getActionBarLayout().presentFragment(new PremiumPreviewFragment("gift"));
+                              //  getActionBarLayout().presentFragment(new PremiumPreviewFragment("gift"));
                             }
 
                             @Override

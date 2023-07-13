@@ -1989,6 +1989,7 @@ public class ActionBarLayout extends FrameLayout implements INavigationLayout, F
             for (int i = 0, N = presentingFragmentDescriptions.size(); i < N; i++) {
                 ThemeDescription description = presentingFragmentDescriptions.get(i);
                 int key = description.getCurrentKey();
+
                 description.setColor(Theme.getColor(key), false, false);
             }
         }

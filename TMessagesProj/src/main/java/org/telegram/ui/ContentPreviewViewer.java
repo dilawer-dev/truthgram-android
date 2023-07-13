@@ -636,7 +636,7 @@ public class ContentPreviewViewer {
                     if (activity.getActionBarLayout() != null && activity.getActionBarLayout().getLastFragment() != null) {
                         activity.getActionBarLayout().getLastFragment().dismissCurrentDialog();
                     }
-                    activity.presentFragment(new PremiumPreviewFragment(PremiumPreviewFragment.featureTypeToServerString(PremiumPreviewFragment.PREMIUM_FEATURE_STICKERS)));
+                  //  activity.presentFragment(new PremiumPreviewFragment(PremiumPreviewFragment.featureTypeToServerString(PremiumPreviewFragment.PREMIUM_FEATURE_STICKERS)));
                 }
                 menuVisible = false;
                 containerView.invalidate();

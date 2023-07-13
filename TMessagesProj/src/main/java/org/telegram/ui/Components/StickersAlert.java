@@ -840,11 +840,11 @@ public class StickersAlert extends BottomSheet implements NotificationCenter.Not
         pickerBottomFrameLayout = new FrameLayout(context);
         pickerBottomFrameLayout.addView(pickerBottomLayout, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 48));
         containerView.addView(pickerBottomFrameLayout, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.WRAP_CONTENT, Gravity.LEFT | Gravity.BOTTOM));
-
-        premiumButtonView = new PremiumButtonView(context, false);
-        premiumButtonView.setIcon(R.raw.unlock_icon);
-        premiumButtonView.setVisibility(View.INVISIBLE);
-        containerView.addView(premiumButtonView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 48, Gravity.BOTTOM | Gravity.FILL_HORIZONTAL, 8, 0, 8, 8));
+//
+//        premiumButtonView = new PremiumButtonView(context, false);
+//        premiumButtonView.setIcon(R.raw.unlock_icon);
+//        premiumButtonView.setVisibility(View.INVISIBLE);
+//        containerView.addView(premiumButtonView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 48, Gravity.BOTTOM | Gravity.FILL_HORIZONTAL, 8, 0, 8, 8));
 
         stickerPreviewLayout = new FrameLayout(context);
         stickerPreviewLayout.setVisibility(View.GONE);
@@ -1099,7 +1099,7 @@ public class StickersAlert extends BottomSheet implements NotificationCenter.Not
                         if (parentFragment != null) {
                             new PremiumFeatureBottomSheet(parentFragment, PremiumPreviewFragment.PREMIUM_FEATURE_ANIMATED_EMOJI, false).show();
                         } else if (getContext() instanceof LaunchActivity) {
-                            ((LaunchActivity) getContext()).presentFragment(new PremiumPreviewFragment(null));
+                          //  ((LaunchActivity) getContext()).presentFragment(new PremiumPreviewFragment(null));
                         }
                     });
 

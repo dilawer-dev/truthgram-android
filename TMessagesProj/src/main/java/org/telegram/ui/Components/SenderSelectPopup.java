@@ -277,7 +277,7 @@ public class SenderSelectPopup extends ActionBarPopupWindow {
 
                 Bulletin bulletin = Bulletin.make(bulletinContainer, new SelectSendAsPremiumHintBulletinLayout(context, parentFragment.themeDelegate, ()->{
                     if (parentFragment != null) {
-                        parentFragment.presentFragment(new PremiumPreviewFragment("select_sender"));
+                      //  parentFragment.presentFragment(new PremiumPreviewFragment("select_sender"));
                         dismiss();
                     }
                 }), Bulletin.DURATION_SHORT);

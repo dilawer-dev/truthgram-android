@@ -210,9 +210,9 @@ public class PremiumPreviewBottomSheet extends BottomSheetWithRecyclerListView i
         AndroidUtilities.updateViewVisibilityAnimated(buttonDivider, true, 1f, false);
 
         if (!UserConfig.getInstance(currentAccount).isPremium()) {
-            buttonContainer.addView(premiumButtonView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 48, Gravity.CENTER_VERTICAL, 16, 0, 16, 0));
-            buttonContainer.setBackgroundColor(getThemedColor(Theme.key_dialogBackground));
-            containerView.addView(buttonContainer, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 68, Gravity.BOTTOM));
+//            buttonContainer.addView(premiumButtonView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 48, Gravity.CENTER_VERTICAL, 16, 0, 16, 0));
+//            buttonContainer.setBackgroundColor(getThemedColor(Theme.key_dialogBackground));
+//            containerView.addView(buttonContainer, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 68, Gravity.BOTTOM));
         }
     }
 

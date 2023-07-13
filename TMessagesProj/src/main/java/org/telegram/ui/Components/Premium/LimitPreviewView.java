@@ -168,11 +168,11 @@ public class LimitPreviewView extends LinearLayout {
 
         if (percent < .7f) {
             if (LocaleController.isRTL) {
-                limitLayout2.addView(limitTextView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 30, Gravity.RIGHT, 36, 0, 12, 0));
-                limitLayout2.addView(premiumCount, LayoutHelper.createFrame(LayoutHelper.WRAP_CONTENT, 30, Gravity.LEFT, 12, 0, 0, 0));
+              //  limitLayout2.addView(limitTextView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 30, Gravity.RIGHT, 36, 0, 12, 0));
+               // limitLayout2.addView(premiumCount, LayoutHelper.createFrame(LayoutHelper.WRAP_CONTENT, 30, Gravity.LEFT, 12, 0, 0, 0));
             } else {
-                limitLayout2.addView(limitTextView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 30, Gravity.LEFT, 0, 0, 36, 0));
-                limitLayout2.addView(premiumCount, LayoutHelper.createFrame(LayoutHelper.WRAP_CONTENT, 30, Gravity.RIGHT, 0, 0, 12, 0));
+              //  limitLayout2.addView(limitTextView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 30, Gravity.LEFT, 0, 0, 36, 0));
+             //   limitLayout2.addView(premiumCount, LayoutHelper.createFrame(LayoutHelper.WRAP_CONTENT, 30, Gravity.RIGHT, 0, 0, 12, 0));
             }
         }
 

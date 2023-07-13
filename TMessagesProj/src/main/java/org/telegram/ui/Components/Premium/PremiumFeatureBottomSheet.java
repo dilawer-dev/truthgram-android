@@ -321,7 +321,7 @@ public class PremiumFeatureBottomSheet extends BottomSheet implements Notificati
                 fragment.getVisibleDialog().dismiss();
             }
             if ((onlySelectedType || forceAbout) && fragment != null) {
-                fragment.presentFragment(new PremiumPreviewFragment(PremiumPreviewFragment.featureTypeToServerString(featureData.type)));
+             //   fragment.presentFragment(new PremiumPreviewFragment(PremiumPreviewFragment.featureTypeToServerString(featureData.type)));
             } else {
                 PremiumPreviewFragment.buyPremium(fragment, selectedTier, PremiumPreviewFragment.featureTypeToServerString(featureData.type));
             }
@@ -330,14 +330,14 @@ public class PremiumFeatureBottomSheet extends BottomSheet implements Notificati
         premiumButtonView.overlayTextView.setOnClickListener(v -> {
             dismiss();
         });
-        buttonContainer = new FrameLayout(getContext());
+     //   buttonContainer = new FrameLayout(getContext());
 
-        buttonContainer.addView(premiumButtonView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 48, Gravity.CENTER_VERTICAL, 16, 0, 16, 0));
-        buttonContainer.setBackgroundColor(getThemedColor(Theme.key_dialogBackground));
-        linearLayout.addView(buttonContainer, LayoutHelper.createLinear(LayoutHelper.MATCH_PARENT, 68, Gravity.BOTTOM));
+      //  buttonContainer.addView(premiumButtonView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 48, Gravity.CENTER_VERTICAL, 16, 0, 16, 0));
+       // buttonContainer.setBackgroundColor(getThemedColor(Theme.key_dialogBackground));
+      //  linearLayout.addView(buttonContainer, LayoutHelper.createLinear(LayoutHelper.MATCH_PARENT, 68, Gravity.BOTTOM));
 
         if (UserConfig.getInstance(currentAccount).isPremium()) {
-            premiumButtonView.setOverlayText(LocaleController.getString("OK", R.string.OK), false, false);
+         //   premiumButtonView.setOverlayText(LocaleController.getString("OK", R.string.OK), false, false);
         }
 
         ScrollView scrollView = new ScrollView(getContext());

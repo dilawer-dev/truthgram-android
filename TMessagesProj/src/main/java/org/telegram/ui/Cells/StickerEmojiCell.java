@@ -86,11 +86,11 @@ public class StickerEmojiCell extends FrameLayout implements NotificationCenter.
         Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
         paint.setColor(Theme.getColor(Theme.key_featuredStickers_addButton));
 
-        premiumIconView = new PremiumLockIconView(context, PremiumLockIconView.TYPE_STICKERS_PREMIUM_LOCKED);
-        premiumIconView.setImageReceiver(imageView);
-        premiumIconView.setPadding(AndroidUtilities.dp(4), AndroidUtilities.dp(4), AndroidUtilities.dp(4), AndroidUtilities.dp(4));
-        premiumIconView.setImageReceiver(imageView);
-        addView(premiumIconView, LayoutHelper.createFrame(24, 24, Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0 ,0, 0, 0));
+//        premiumIconView = new PremiumLockIconView(context, PremiumLockIconView.TYPE_STICKERS_PREMIUM_LOCKED);
+//        premiumIconView.setImageReceiver(imageView);
+//        premiumIconView.setPadding(AndroidUtilities.dp(4), AndroidUtilities.dp(4), AndroidUtilities.dp(4), AndroidUtilities.dp(4));
+//        premiumIconView.setImageReceiver(imageView);
+//        addView(premiumIconView, LayoutHelper.createFrame(24, 24, Gravity.BOTTOM | Gravity.CENTER_HORIZONTAL, 0 ,0, 0, 0));
         setFocusable(true);
     }
 

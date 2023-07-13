@@ -2666,7 +2666,7 @@ public class ChatAttachAlert extends BottomSheet implements NotificationCenter.N
         BulletinFactory.of(sizeNotifierFrameLayout, resourcesProvider).createCaptionLimitBulletin(MessagesController.getInstance(currentAccount).captionLengthLimitPremium, ()->{
             dismiss(true);
             if (parentFragment != null) {
-                parentFragment.presentFragment(new PremiumPreviewFragment("caption_limit"));
+               // parentFragment.presentFragment(new PremiumPreviewFragment("caption_limit"));
             }
         }).show();
     }

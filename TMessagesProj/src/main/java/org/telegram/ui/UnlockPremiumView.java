@@ -54,8 +54,8 @@ public class UnlockPremiumView extends FrameLayout {
         SpannableStringBuilder spannableStringBuilder = new SpannableStringBuilder();
         spannableStringBuilder.append("d ").setSpan(new ColoredImageSpan(ContextCompat.getDrawable(context, R.drawable.msg_premium_normal)), 0, 1, 0);
         spannableStringBuilder.append(text);
-        premiumButtonView.buttonTextView.setText(spannableStringBuilder);
-        linearLayout.addView(premiumButtonView, LayoutHelper.createLinear(LayoutHelper.MATCH_PARENT, 48, 0, 16, 0, 16, 16));
+//        premiumButtonView.buttonTextView.setText(spannableStringBuilder);
+//        linearLayout.addView(premiumButtonView, LayoutHelper.createLinear(LayoutHelper.MATCH_PARENT, 48, 0, 16, 0, 16, 16));
 
     }
 

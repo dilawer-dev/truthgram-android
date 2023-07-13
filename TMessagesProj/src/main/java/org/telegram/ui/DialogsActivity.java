@@ -4655,7 +4655,7 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
             dialogsHintCell.setVisibility(View.VISIBLE);
             dialogsHintCell.setOnClickListener(v -> {
                 if (rightSlidingDialogContainer != null && rightSlidingDialogContainer.hasFragment()) return;
-                presentFragment(new PremiumPreviewFragment("dialogs_hint").setSelectAnnualByDefault());
+               // presentFragment(new PremiumPreviewFragment("dialogs_hint").setSelectAnnualByDefault());
                 AndroidUtilities.runOnUIThread(() -> {
                     MessagesController.getInstance(currentAccount).removeSuggestion(0, "PREMIUM_RESTORE");
                     updateDialogsHint();
@@ -4674,7 +4674,7 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
             dialogsHintCell.setVisibility(View.VISIBLE);
             dialogsHintCell.setOnClickListener(v -> {
                 if (rightSlidingDialogContainer != null && rightSlidingDialogContainer.hasFragment()) return;
-                presentFragment(new PremiumPreviewFragment("dialogs_hint").setSelectAnnualByDefault());
+               // presentFragment(new PremiumPreviewFragment("dialogs_hint").setSelectAnnualByDefault());
                 AndroidUtilities.runOnUIThread(() -> {
                     MessagesController.getInstance(currentAccount).removeSuggestion(0, isPremiumHintUpgrade ? "PREMIUM_UPGRADE" : "PREMIUM_ANNUAL");
                     updateDialogsHint();

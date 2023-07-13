@@ -161,7 +161,7 @@ public class LimitReachedBottomSheet extends BottomSheetWithRecyclerListView {
             divider.setBackgroundColor(Theme.getColor(Theme.key_dialogBackground));
             containerView.addView(divider, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 72, Gravity.BOTTOM, 0, 0, 0, 0));
         }
-        containerView.addView(premiumButtonView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 48, Gravity.BOTTOM, 16, 0, 16, 12));
+       // containerView.addView(premiumButtonView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 48, Gravity.BOTTOM, 16, 0, 16, 12));
         recyclerListView.setPadding(0, 0, 0, AndroidUtilities.dp(72));
         recyclerListView.setOnItemClickListener((view, position) -> {
             if (view instanceof AdminedChannelCell) {
@@ -208,7 +208,7 @@ public class LimitReachedBottomSheet extends BottomSheetWithRecyclerListView {
             if (parentFragment.getVisibleDialog() != null) {
                 parentFragment.getVisibleDialog().dismiss();
             }
-            parentFragment.presentFragment(new PremiumPreviewFragment(limitTypeToServerString(type)));
+          //  parentFragment.presentFragment(new PremiumPreviewFragment(limitTypeToServerString(type)));
             if (onShowPremiumScreenRunnable != null) {
                 onShowPremiumScreenRunnable.run();
             }

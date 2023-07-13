@@ -3335,9 +3335,9 @@ public class EmojiView extends FrameLayout implements NotificationCenter.Notific
             addButtonView.addView(addButtonTextView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.WRAP_CONTENT, Gravity.CENTER));
             addView(addButtonView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.MATCH_PARENT));
 
-            premiumButtonView = new PremiumButtonView(getContext(), false);
-            premiumButtonView.setIcon(R.raw.unlock_icon);
-            addView(premiumButtonView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.MATCH_PARENT));
+//            premiumButtonView = new PremiumButtonView(getContext(), false);
+//            premiumButtonView.setIcon(R.raw.unlock_icon);
+//            addView(premiumButtonView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.MATCH_PARENT));
         }
 
         private String lastTitle;
@@ -3593,7 +3593,7 @@ public class EmojiView extends FrameLayout implements NotificationCenter.Notific
                 premiumButtonView.getChildAt(0).setPadding(AndroidUtilities.dp(8), 0, AndroidUtilities.dp(8), 0);
             } catch (Exception ev) {}
 
-            buttonsView.addView(premiumButtonView, LayoutHelper.createFrameRelatively(LayoutHelper.WRAP_CONTENT, 26, Gravity.END | Gravity.TOP));
+         //   buttonsView.addView(premiumButtonView, LayoutHelper.createFrameRelatively(LayoutHelper.WRAP_CONTENT, 26, Gravity.END | Gravity.TOP));
 
             setWillNotDraw(false);
         }

@@ -5463,7 +5463,7 @@ public class ChatActivityEnterView extends BlurredFrameLayout implements Notific
                                         if (parentFragment != null) {
                                             new PremiumFeatureBottomSheet(parentFragment, PremiumPreviewFragment.PREMIUM_FEATURE_ANIMATED_EMOJI, false).show();
                                         } else if (parentFragment.getContext() instanceof LaunchActivity) {
-                                            ((LaunchActivity) parentFragment.getContext()).presentFragment(new PremiumPreviewFragment(null));
+                                           // ((LaunchActivity) parentFragment.getContext()).presentFragment(new PremiumPreviewFragment(null));
                                         }
                                     }
                                 ).show();
@@ -5482,7 +5482,7 @@ public class ChatActivityEnterView extends BlurredFrameLayout implements Notific
         }
         BulletinFactory.of(parentFragment).createCaptionLimitBulletin(MessagesController.getInstance(currentAccount).captionLengthLimitPremium, () -> {
             if (parentFragment != null) {
-                parentFragment.presentFragment(new PremiumPreviewFragment("caption_limit"));
+              //  parentFragment.presentFragment(new PremiumPreviewFragment("caption_limit"));
             }
         }).show();
     }

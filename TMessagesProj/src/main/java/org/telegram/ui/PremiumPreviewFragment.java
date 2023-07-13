@@ -350,7 +350,7 @@ public class PremiumPreviewFragment extends BaseFragment implements Notification
                     statusBarHeight = AndroidUtilities.isTablet() ? 0 : AndroidUtilities.statusBarHeight;
                 }
                 backgroundView.measure(widthMeasureSpec, MeasureSpec.makeMeasureSpec(0, MeasureSpec.UNSPECIFIED));
-                particlesView.getLayoutParams().height = backgroundView.getMeasuredHeight();
+         //       particlesView.getLayoutParams().height = backgroundView.getMeasuredHeight();
                 int buttonHeight = (buttonContainer == null || buttonContainer.getVisibility() == View.GONE ? 0 : AndroidUtilities.dp(68));
                 layoutManager.setAdditionalHeight(buttonHeight + statusBarHeight - AndroidUtilities.dp(16));
                 layoutManager.setMinimumLastViewHeight(buttonHeight);
@@ -392,9 +392,9 @@ public class PremiumPreviewFragment extends BaseFragment implements Notification
                     }
                 }
                 View firstView = null;
-                if (listView.getLayoutManager() != null) {
-                    firstView = listView.getLayoutManager().findViewByPosition(0);
-                }
+               // if (listView.getLayoutManager() != null) {
+                  //  firstView = listView.getLayoutManager().findViewByPosition(0);
+                //}
 
                 currentYOffset = firstView == null ? 0 : firstView.getBottom();
                 int h = actionBar.getBottom() + AndroidUtilities.dp(16);
@@ -490,9 +490,9 @@ public class PremiumPreviewFragment extends BaseFragment implements Notification
                         listView.smoothScrollBy(0, currentYOffset - maxTop);
                     } else {
                         View firstView = null;
-                        if (listView.getLayoutManager() != null) {
-                            firstView = listView.getLayoutManager().findViewByPosition(0);
-                        }
+//                        if (listView.getLayoutManager() != null) {
+//                            firstView = listView.getLayoutManager().findViewByPosition(0);
+//                        }
                         if (firstView != null && firstView.getTop() < 0) {
                             listView.smoothScrollBy(0, firstView.getTop());
                         }
@@ -517,8 +517,8 @@ public class PremiumPreviewFragment extends BaseFragment implements Notification
         };
         particlesView = new StarParticlesView(context);
         backgroundView.imageView.setStarParticlesView(particlesView);
-        contentView.addView(particlesView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.WRAP_CONTENT));
-        contentView.addView(backgroundView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.WRAP_CONTENT));
+       // contentView.addView(particlesView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.WRAP_CONTENT));
+        //contentView.addView(backgroundView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.WRAP_CONTENT));
 
         listView.setOnItemClickListener((view, position) -> {
             if (view instanceof PremiumFeatureCell) {
@@ -538,7 +538,7 @@ public class PremiumPreviewFragment extends BaseFragment implements Notification
                 showDialog(new PremiumFeatureBottomSheet(PremiumPreviewFragment.this, cell.data.type, false, tier));
             }
         });
-        contentView.addView(listView);
+      //  contentView.addView(listView);
 
         premiumButtonView = new PremiumButtonView(context, false);
         updateButtonText(false);
@@ -546,13 +546,13 @@ public class PremiumPreviewFragment extends BaseFragment implements Notification
 
         buttonDivider = new View(context);
         buttonDivider.setBackgroundColor(Theme.getColor(Theme.key_divider));
-        buttonContainer.addView(buttonDivider, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 1));
-        buttonDivider.getLayoutParams().height = 1;
+       // buttonContainer.addView(buttonDivider, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 1));
+       // buttonDivider.getLayoutParams().height = 1;
         AndroidUtilities.updateViewVisibilityAnimated(buttonDivider, true, 1f, false);
 
-        buttonContainer.addView(premiumButtonView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 48, Gravity.CENTER_VERTICAL, 16, 0, 16, 0));
-        buttonContainer.setBackgroundColor(getThemedColor(Theme.key_dialogBackground));
-        contentView.addView(buttonContainer, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 68, Gravity.BOTTOM));
+        //buttonContainer.addView(premiumButtonView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 48, Gravity.CENTER_VERTICAL, 16, 0, 16, 0));
+        //buttonContainer.setBackgroundColor(getThemedColor(Theme.key_dialogBackground));
+        //contentView.addView(buttonContainer, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, 68, Gravity.BOTTOM));
 
         fragmentView = contentView;
         actionBar.setBackground(null);
@@ -733,11 +733,11 @@ public class PremiumPreviewFragment extends BaseFragment implements Notification
 
                         premiumPreviewFragment.listView.smoothScrollToPosition(0);
                     } else {
-                        PremiumPreviewFragment previewFragment = new PremiumPreviewFragment(null);
-                        if (finalForcePremium) {
-                            previewFragment.setForcePremium();
-                        }
-                        fragment.presentFragment(previewFragment);
+                      //  PremiumPreviewFragment previewFragment = new PremiumPreviewFragment(null);
+//                        if (finalForcePremium) {
+//                            previewFragment.setForcePremium();
+//                        }
+//                        fragment.presentFragment(previewFragment);
                     }
                     if (fragment.getParentActivity() instanceof LaunchActivity) {
                         try {
@@ -1134,7 +1134,7 @@ public class PremiumPreviewFragment extends BaseFragment implements Notification
             super(context);
             setOrientation(VERTICAL);
             imageFrameLayout = new FrameLayout(context);
-            addView(imageFrameLayout, LayoutHelper.createLinear(190, 190, Gravity.CENTER_HORIZONTAL));
+         //   addView(imageFrameLayout, LayoutHelper.createLinear(190, 190, Gravity.CENTER_HORIZONTAL));
             imageView = new GLIconTextureView(context, GLIconRenderer.FRAGMENT_STYLE) {
                 @Override
                 public void onLongPress() {
@@ -1147,17 +1147,17 @@ public class PremiumPreviewFragment extends BaseFragment implements Notification
                     ScrollView scrollView = new ScrollView(context);
 
                     LinearLayout linearLayout = new GLIconSettingsView(context, imageView.mRenderer);
-                    scrollView.addView(linearLayout);
-                    settingsView.addView(scrollView);
+                 //   scrollView.addView(linearLayout);
+                //    settingsView.addView(scrollView);
                     settingsView.setBackgroundColor(Theme.getColor(Theme.key_dialogBackground));
-                    contentView.addView(settingsView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.MATCH_PARENT, Gravity.BOTTOM));
-                    ((MarginLayoutParams) settingsView.getLayoutParams()).topMargin = currentYOffset;
+                //    contentView.addView(settingsView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.MATCH_PARENT, Gravity.BOTTOM));
+                 //   ((MarginLayoutParams) settingsView.getLayoutParams()).topMargin = currentYOffset;
 
                     settingsView.setTranslationY(AndroidUtilities.dp(1000));
                     settingsView.animate().translationY(1).setDuration(300);
                 }
             };
-            imageFrameLayout.addView(imageView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.MATCH_PARENT));
+        //    imageFrameLayout.addView(imageView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.MATCH_PARENT));
             imageFrameLayout.setClipChildren(false);
             setClipChildren(false);
 
@@ -1165,13 +1165,13 @@ public class PremiumPreviewFragment extends BaseFragment implements Notification
             titleView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 22);
             titleView.setTypeface(AndroidUtilities.getTypeface("fonts/rmedium.ttf"));
             titleView.setGravity(Gravity.CENTER_HORIZONTAL);
-            addView(titleView, LayoutHelper.createLinear(LayoutHelper.WRAP_CONTENT, LayoutHelper.WRAP_CONTENT, 0, Gravity.CENTER_HORIZONTAL, 16, 20, 16, 0));
+       //     addView(titleView, LayoutHelper.createLinear(LayoutHelper.WRAP_CONTENT, LayoutHelper.WRAP_CONTENT, 0, Gravity.CENTER_HORIZONTAL, 16, 20, 16, 0));
 
             subtitleView = new TextView(context);
             subtitleView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 14);
             subtitleView.setLineSpacing(AndroidUtilities.dp(2), 1f);
             subtitleView.setGravity(Gravity.CENTER_HORIZONTAL);
-            addView(subtitleView, LayoutHelper.createLinear(LayoutHelper.MATCH_PARENT, LayoutHelper.WRAP_CONTENT, 0, 0, 16, 7, 16, 0));
+         //   addView(subtitleView, LayoutHelper.createLinear(LayoutHelper.MATCH_PARENT, LayoutHelper.WRAP_CONTENT, 0, 0, 16, 7, 16, 0));
 
             tierListView = new RecyclerListView(context) {
                 Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
@@ -1308,7 +1308,7 @@ public class PremiumPreviewFragment extends BaseFragment implements Notification
                 path.addRoundRect(AndroidUtilities.rectTmp, radii, Path.Direction.CW);
                 canvas.clipPath(path);
             });
-            addView(tierListView, LayoutHelper.createLinear(LayoutHelper.MATCH_PARENT, LayoutHelper.WRAP_CONTENT, 12, 16, 12, 0));
+            //addView(tierListView, LayoutHelper.createLinear(LayoutHelper.MATCH_PARENT, LayoutHelper.WRAP_CONTENT, 12, 16, 12, 0));
 
             updatePremiumTiers();
             updateText();

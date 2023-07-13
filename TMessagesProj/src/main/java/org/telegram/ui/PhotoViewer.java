@@ -7036,7 +7036,7 @@ public class PhotoViewer implements NotificationCenter.NotificationCenterDelegat
                 parentAlert.dismiss(true);
             }
             if (parentFragment != null) {
-                parentFragment.presentFragment(new PremiumPreviewFragment("caption_limit"));
+              //  parentFragment.presentFragment(new PremiumPreviewFragment("caption_limit"));
             }
         }).show();
     }
